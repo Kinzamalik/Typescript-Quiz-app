@@ -1,4 +1,4 @@
-import {Quiz} from './../Types/quiz_types';
+import {Quiz,QuestionType} from './../Types/quiz_types';
 
 const shuffleArray = (array:any[])=>
 [...array].sort(()=> Math.random()- 0.5)
