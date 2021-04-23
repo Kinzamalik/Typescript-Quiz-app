@@ -2,11 +2,10 @@ import React from 'react';
 import {QuestionPropsType} from './../Types/quiz_types'
 
 const QuestionCard:React.FC<QuestionPropsType> =({question,options,callback})=>{
-    console.log(question,options)
     return(
         <div className="question_container">
         <div className="question">
-            {question}
+           <h4> {question}</h4>
         </div>
 
         <form onSubmit={callback}>
