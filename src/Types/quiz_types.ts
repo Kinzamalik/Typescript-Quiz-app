@@ -10,15 +10,16 @@ export type QuestionType = {
 };
 
 
- export type  QuizType={
-    question:string
-    answer:string
-    option:string[]
-}
+ export type QuizType = {
+   question: string;
+   answer: string;
+   option: string[];
+   correct_answer: string;
+ };
 
 export type QuestionPropsType = {
   question: string;
   options: string[];
-  callback: (e:React.FormEvent<EventTarget>)=> void;
+  callback: (e:React.FormEvent<EventTarget>,ans:string)=> void;
 };
 
