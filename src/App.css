@@ -1,1 +1,38 @@
+ .App{
+     text-align: center;
+ }
  
+ 
+ .question_container{
+     text-align: left;
+     max-width: 500px;
+     box-shadow: 0px 5px 24px #867a7a;
+     padding: 20px;
+     margin: 0 auto;
+     margin-top: 50px;
+
+ }
+ .question_form .submit {
+
+    width:  100%;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 20px;
+
+ }
+ .question_form .radio{
+     display: block;
+     margin: 12px;
+      
+ }
+/* 
+.question_form .result_test{
+    text-align: center;
+} */
+
+.question_container .result_container{
+    text-align: center;
+}
